@@ -5,14 +5,18 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES6",
     "noImplicitAny": true,
-    "moduleResolution": "classic",
+    "moduleResolution": "node",
+    "removeComments": true,
     "sourceMap": true,
-    "outDir": "compiled"
+    "rootDir": "src",
+    "outDir": "dist"
   },
-  "include": [
-    "./src/**/*.ts"
-  ],
+  "files": ["src/index.ts"],
   "exclude": [
+    "**/*.spec.ts",
+    ".idea",
+    "dist",
+    "coverage",
     "node_modules"
   ]
 }

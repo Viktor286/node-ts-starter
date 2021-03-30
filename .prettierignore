@@ -1,3 +1,6 @@
-compiled
-node_modules
+.idea
+.DS_Store
+
 coverage
+dist
+node_modules
