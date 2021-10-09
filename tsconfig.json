@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES6",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "removeComments": true,
     "sourceMap": true,
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "module": "ESNext",
+    "target": "ES2020",
   },
   "files": ["src/index.ts"],
   "exclude": [
